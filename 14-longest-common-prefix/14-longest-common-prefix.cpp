@@ -10,9 +10,8 @@ public:
         string last = str[n - 1];
         
         for (int i=0; i < first.size(); i++) {
-            if (first[i] == last[i]) {
-                res = res + first[i];
-            } else break;
+            if (first[i] == last[i]) res += first[i];
+            else break;
         }
         
         return res;
