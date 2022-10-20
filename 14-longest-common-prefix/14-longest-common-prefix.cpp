@@ -7,12 +7,14 @@ public:
         sort(begin(str), end(str));
         
         string first = str[0];
-        string second = str[n - 1];
-        for (int i = 0; i < first.size(); i++) {
-            if (first[i] == second[i]) {
+        string last = str[n - 1];
+        
+        for (int i=0; i < first.size(); i++) {
+            if (first[i] == last[i]) {
                 res = res + first[i];
             } else break;
         }
+        
         return res;
     }
 };
