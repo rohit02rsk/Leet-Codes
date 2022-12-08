@@ -18,6 +18,8 @@ public:
         dfs(vec, root->right);
     }
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
+        if(!root1 && !root2) return true;
+        if(!root1 || !root2) return false;
         vector<int> r1, r2;
         dfs(r1, root1);
         dfs(r2, root2);
