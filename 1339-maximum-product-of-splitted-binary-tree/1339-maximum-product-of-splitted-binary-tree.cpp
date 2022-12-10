@@ -23,6 +23,6 @@ public:
     int maxProduct(TreeNode* root) {
         total = rec(root);
         rec(root);
-        return res % int(pow(10,9)+7);
+        return res % int(pow(10, 9) + 7);
     }
 };
