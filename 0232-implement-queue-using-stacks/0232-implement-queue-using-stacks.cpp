@@ -1,5 +1,7 @@
 class MyQueue {
 public:
+    stack<int> in;
+    stack<int> out;
     void push(int x) {
         in.push(x);
     }
@@ -21,9 +23,6 @@ public:
     bool empty() {
         return in.empty() && out.empty();
     }
-private:
-    stack<int> in;
-    stack<int> out;
 };
 
 /**
