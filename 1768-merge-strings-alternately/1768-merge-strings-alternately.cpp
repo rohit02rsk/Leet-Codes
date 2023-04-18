@@ -13,7 +13,7 @@ public:
                 res += word2[i];
                 i++;
             }
-        } else if (word2.length() < word1.length()) {
+        } else {
             while(i<word1.length()) {
                 res += word1[i];
                 i++;
