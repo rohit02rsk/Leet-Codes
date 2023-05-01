@@ -13,6 +13,7 @@ public:
         }
         avg -= (mi+ma);
         avg /= (n-2);
+        
         return avg;
     }
 };
