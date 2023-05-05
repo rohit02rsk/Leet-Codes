@@ -2,10 +2,9 @@ class MinStack {
 public:
     stack<int> st;
     stack<int> mins;
-    int min_ele;
     
     MinStack() {
-        min_ele = INT_MAX;
+    
     }
     
     void push(int val) {
