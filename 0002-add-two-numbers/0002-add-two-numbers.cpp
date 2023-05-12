@@ -41,7 +41,7 @@ public:
                     prev_num1 = num1;
                     num1 = num1->next;
                 }
-            } else if(!num1) {
+            } else {
                 prev_num1->next = num2;
                 break;
             }
