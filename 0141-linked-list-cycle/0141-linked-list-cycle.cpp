@@ -11,7 +11,7 @@ public:
     bool hasCycle(ListNode *head) {
         unordered_set<ListNode*> s;
         while(head) {
-            if(s.count(head)) return true;
+            if(s.find(head) != s.end()) return true;
             else s.insert(head);
             head = head->next;
         }
