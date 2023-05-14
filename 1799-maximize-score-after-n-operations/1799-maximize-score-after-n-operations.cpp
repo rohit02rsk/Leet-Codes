@@ -19,7 +19,7 @@ public:
     }
 
     int maxScore(vector<int>& nums) {
-        vector<int> dp(1<<14, -1);
+        vector<int> dp(1<<15, -1);
 
         int m = nums.size(), n = nums.size()/2;
         vector<vector<int>> gcd(m, vector<int>(m, 0));
