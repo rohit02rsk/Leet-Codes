@@ -19,9 +19,8 @@ public:
                 head = temp;
                 curr = temp;
             } else if(curr->val == val) {
-                ListNode* temp = curr->next;
                 prev->next = curr->next;
-                curr = temp;
+                curr = curr->next;
             } else {
                 prev = curr;
                 curr = curr->next;
