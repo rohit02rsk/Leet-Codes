@@ -19,7 +19,7 @@ public:
             mid = mid->next;
         } 
         
-        //reverse 2nd half;
+        //reverse 2nd half
         ListNode* prev = NULL;
         while(mid) {
             ListNode* temp = mid->next;
