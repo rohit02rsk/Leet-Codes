@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
+        vector<int> res;
         priority_queue< pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>> > available;
         for(int i=0; i<servers.size(); i++) 
             available.emplace(make_pair(servers[i], i));
@@ -8,7 +9,6 @@ public:
         priority_queue< vector<int>, vector<vector<int>>, greater<vector<int>> > unavailable;
         int time = 0;
         
-        vector<int> res;
         for(int i=0; i<tasks.size(); i++) {
             time = max(time, i);
             if(available.empty()) {
