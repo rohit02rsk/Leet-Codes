@@ -1,23 +1,31 @@
 class Solution {
 public:
-    vector<string> restoreIpAddresses(string s) {
-        vector<string> ret;
-        for (int a = 1; a <= 3; ++a) {
-          for (int b = 1; b <= 3; ++b) {
-            for (int c = 1; c <= 3; ++c) {
-              int d = s.size() - a - b - c;
-              if (1 <= d && d <= 3 && 
-                (1 == a || '0' != s[0        ] && (3 != a || 0 < memcmp("256", &s[0        ], 3))) &&
-                (1 == b || '0' != s[a        ] && (3 != b || 0 < memcmp("256", &s[a        ], 3))) &&
-                (1 == c || '0' != s[a + b    ] && (3 != c || 0 < memcmp("256", &s[a + b    ], 3))) &&
-                (1 == d || '0' != s[a + b + c] && (3 != d || 0 < memcmp("256", &s[a + b + c], 3)))) 
-              {
-                ret.emplace_back(s.substr(0, a) + "." + s.substr(a, b) + "." + s.substr(a + b, c) + "." + s.substr(a + b + c));
-              }
-            }
-          }
+    bool isValid(string s) {
+        if(s.size() > 3 or s.size() == 0) return false;
+        if(s.size() > 1 and s[0] == '0') return false;
+        if(s.size() and stoi(s) > 255) return false;
+        return true;
+    }
+    void help(vector<string>& res, string curr, string s, int dots, int start) {
+        if(dots == 3) { 
+            if(isValid(s.substr(start)))
+                res.push_back(curr + s.substr(start));
+            return;
         }
-
-        return ret;
+        for(int i=start; i<s.size(); i++) {
+            if(isValid(s.substr(start, i+1-start))) {
+                curr.push_back(s[i]);
+                curr.push_back('.');
+                help(res, curr, s, dots+1, i+1);
+                curr.pop_back();
+            }
+        }
+        return;
+    }
+    vector<string> restoreIpAddresses(string s) {
+        if(s.size() > 12 or s.size() < 4) return {};
+        vector<string> res;
+        help(res, "", s, 0, 0);
+        return res;
     }
 };
