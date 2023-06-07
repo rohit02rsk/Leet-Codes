@@ -12,7 +12,7 @@ public:
                     continue;
                 else res++;
             }
-            else if(bin_c[i] == '0') {
+            else {
                 if(bin_a[i] == '1')
                     res++;
                 if(bin_b[i] == '1')
