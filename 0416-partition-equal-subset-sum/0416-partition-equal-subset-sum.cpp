@@ -1,8 +1,9 @@
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-        int t = accumulate(nums.begin(), nums.end(), 0);
         unordered_set<int> dp;
+        int t = 0;
+        for(int i : nums) t += i;
         
         if(t % 2)
             return false;
