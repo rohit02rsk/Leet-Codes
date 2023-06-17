@@ -9,9 +9,9 @@ public:
         pq.push({grid[0][0], {0, 0}});
         while(!pq.empty()) {
             auto [h, coords] = pq.top();
-            int i = coords.first;
-            int j = coords.second;
+            auto [i, j] = coords;
             pq.pop();
+            
             if(i == n-1 and j == n-1)
                 return h;
             
