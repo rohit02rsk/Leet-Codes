@@ -11,36 +11,34 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        ListNode* slow = head;
+        // find mid
+        ListNode* half1 = head;
+        ListNode* half2 = head; // slow
         ListNode* fast = head->next;
-        
-        //splitting the list into two halves
         while(fast and fast->next) {
-            slow = slow->next;
+            half2 = half2->next;
             fast = fast->next->next;
         }
-        
-        //reversing the second list
-        ListNode* second = slow->next;
-        slow->next = NULL;
+
+        // reverse 2nd half
+        ListNode* curr = half2;
         ListNode* prev = NULL;
-        while(second) {
-            ListNode* temp = second->next;
-            second->next = prev;
-            prev = second;
-            second = temp;
+        while(curr) {
+            ListNode* nxt = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nxt;
         }
-        
-        //merging the lists
-        second = prev;
-        ListNode* first = head;
-        while(second) {
-            ListNode* temp1 = first->next;
-            ListNode* temp2 = second->next;
-            first->next = second;
-            second->next = temp1;
-            first = temp1;
-            second = temp2;
+
+        // merge lists
+        half2 = prev;
+        while(half1 and half2) {
+            ListNode* nxt1 = half1->next;
+            ListNode* nxt2 = half2->next;
+            half1->next = half2;
+            half2->next = nxt1;
+            half1 = nxt1;
+            half2 = nxt2;
         }
     }
 };
