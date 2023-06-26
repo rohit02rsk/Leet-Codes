@@ -11,10 +11,12 @@
  */
 class Solution {
 public:
-    int goodNodes(TreeNode* root, int mn = INT_MIN) {
+    int res = 0;
+    int goodNodes(TreeNode* root, int mx = INT_MIN) {
         if(!root) return 0;
-        if(root->val >= mn)
-            return 1 + goodNodes(root->left, root->val) + goodNodes(root->right, root->val);
-        return goodNodes(root->left, mn) + goodNodes(root->right, mn);
+        if(root->val >= mx) res++;
+        goodNodes(root->left, max(root->val, mx));
+        goodNodes(root->right, max(root->val, mx));
+        return res;
     }
 };
