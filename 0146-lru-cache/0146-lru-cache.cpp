@@ -1,80 +1,68 @@
 class Node {
 public:
-    int k;
+    int key;
     int val;
     Node* prev;
     Node* next;
-    
-    Node(int key, int value) {
-        k = key;
-        val = value;
-        next = NULL;
+    Node(int k, int v) {
+        key = k;
+        val = v;
         prev = NULL;
+        next = NULL;
     }
 };
-
 class LRUCache {
 public:
-    
+    int cap;
+    unordered_map<int, Node*> mp;
+    Node* left;
+    Node* right;
     LRUCache(int capacity) {
         cap = capacity;
         left = new Node(0, 0);
         right = new Node(0, 0);
         left->next = right;
-        right->prev = left;
+        right->prev = left; // left <--> right
     }
     
+    // remove from the list
+    void remove(Node* node) {
+        Node* prv = node->prev;
+        Node* nxt = node->next;
+        prv->next = nxt;
+        nxt->prev = prv;
+    }
+
+    // insert at the right - most recent
+    void insert(Node* node) {
+        Node* prv = right->prev;
+        right->prev = node;
+        prv->next = node;
+        node->next = right;
+        node->prev = prv;
+    }
+
     int get(int key) {
-        if(cache.count(key)) {
-            //move from most recently used to least recently used
-            remove(cache[key]);
-            insert(cache[key]);
-            
-            return cache[key]->val;
+        if(mp.count(key)) {
+            remove(mp[key]);
+            insert(mp[key]);
+            return mp[key]->val;
         }
-        //not found
         return -1;
     }
     
     void put(int key, int value) {
-        if(cache.count(key)) {
-            remove(cache[key]);
-            delete cache[key];
-        }
-        cache[key] = new Node(key, value);
-        insert(cache[key]);
-        
-        if(cache.size() > cap) {
-            Node* lru = left->next;    
+        if(mp.count(key))
+            remove(mp[key]);
+        mp[key] = new Node(key, value);
+        insert(mp[key]);
+
+        if(mp.size() > cap) {
+            Node* lru = left->next;
+            left->next = left->next->next;
+            mp.erase(lru->key);
             remove(lru);
-            cache.erase(lru->k);
-            delete lru;
         }
-    }
-    
-private:
-    int cap;
-    unordered_map<int, Node*> cache;
-    Node* left;
-    Node* right;
-    
-    void remove(Node* node) {
-        Node* prev = node->prev;
-        Node* next = node->next;
-        
-        prev->next = next;
-        next->prev = prev;
-    }
-    
-    void insert(Node* node) {
-        Node* prev = right->prev;
-        Node* next = right;
-        
-        prev->next = node;
-        next->prev = node;
-        
-        node->prev = prev;
-        node->next = next;
     }
 };
 
