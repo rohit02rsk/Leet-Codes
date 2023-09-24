@@ -7,13 +7,14 @@ class Solution{
   public:
     vector<int> duplicates(int arr[], int n) {
         vector<int> res;
-        unordered_map<int, int> mp;
-        for (int i=0; i<n; i++) {
-            mp[arr[i]]++;
-            if (mp[arr[i]] == 2) res.push_back(arr[i]);
+        sort(arr, arr+n);
+        for (int i=1; i<n; i++) {
+            if (arr[i] == arr[i-1]) {
+                res.push_back(arr[i]);
+                while (arr[i] == arr[i-1] and i < n) i++;
+            }
         }
         if (res.size() == 0) res.push_back(-1);
-        sort(res.begin(), res.end());
         return res;
     }
 };
