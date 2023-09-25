@@ -1,13 +1,13 @@
 class Solution {
 public:
-    char findTheDifference(string str, string t) {
-        unordered_map<char, int> m;
-        for(char c: str) m[c]++;
-        for(char c: t) {
-            if(m[c] == 0) return c;
-            m[c]--;
-            if(m[c] < 0) return c;
+    char findTheDifference(string s, string t) {
+        unordered_map<char, int> mp;
+        for (char c : s) mp[c]++;
+        for (char c : t) {
+            if (!mp.count(c)) return c;
+            if (mp[c] == 0) return c;
+            mp[c]--;
         }
-        return '1';
+        return '0';
     }
 };
