@@ -21,4 +21,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
+## Tree
+|  |
+| ------- |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohit02rsk/Leet-Codes/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+## Depth-First Search
+|  |
+| ------- |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohit02rsk/Leet-Codes/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+## Binary Tree
+|  |
+| ------- |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohit02rsk/Leet-Codes/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 <!---LeetCode Topics End-->
