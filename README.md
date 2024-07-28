@@ -44,4 +44,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/rohit02rsk/Leet-Codes/tree/master/2171-second-minimum-time-to-reach-destination) |
+## Graph
+|  |
+| ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/rohit02rsk/Leet-Codes/tree/master/2171-second-minimum-time-to-reach-destination) |
+## Shortest Path
+|  |
+| ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/rohit02rsk/Leet-Codes/tree/master/2171-second-minimum-time-to-reach-destination) |
 <!---LeetCode Topics End-->
