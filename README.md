@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/rohit02rsk/Leet-Codes/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
 ## String
@@ -56,4 +57,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/rohit02rsk/Leet-Codes/tree/master/2171-second-minimum-time-to-reach-destination) |
+## Two Pointers
+|  |
+| ------- |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+## Binary Search
+|  |
+| ------- |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+## Sorting
+|  |
+| ------- |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 <!---LeetCode Topics End-->
