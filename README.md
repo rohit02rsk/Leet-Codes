@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohit02rsk/Leet-Codes/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/rohit02rsk/Leet-Codes/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Matrix
 |  |
@@ -69,4 +71,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+## Design
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
