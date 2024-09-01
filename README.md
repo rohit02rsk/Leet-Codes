@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/rohit02rsk/Leet-Codes/tree/master/1642-water-bottles) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Array
 |  |
 | ------- |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/2132-convert-1d-array-into-2d-array) |
 ## String
 |  |
 | ------- |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/rohit02rsk/Leet-Codes/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Greedy
 |  |
 | ------- |
