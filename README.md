@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/rohit02rsk/Leet-Codes/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/2132-convert-1d-array-into-2d-array) |
 ## String
 |  |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -90,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/rohit02rsk/Leet-Codes/tree/master/0789-kth-largest-element-in-a-stream) |
+## Hash Table
+|  |
+| ------- |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
 <!---LeetCode Topics End-->
