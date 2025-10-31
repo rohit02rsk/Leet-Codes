@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/rohit02rsk/Leet-Codes/tree/master/1642-water-bottles) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohit02rsk/Leet-Codes/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Simulation
 |  |
 | ------- |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/2132-convert-1d-array-into-2d-array) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohit02rsk/Leet-Codes/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## String
 |  |
 | ------- |
@@ -96,4 +98,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohit02rsk/Leet-Codes/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 <!---LeetCode Topics End-->
