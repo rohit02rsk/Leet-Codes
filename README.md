@@ -25,10 +25,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/rohit02rsk/Leet-Codes/tree/master/0032-longest-valid-parentheses) |
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/rohit02rsk/Leet-Codes/tree/master/0032-longest-valid-parentheses) |
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
 ## Tree
 |  |
@@ -105,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/rohit02rsk/Leet-Codes/tree/master/0032-longest-valid-parentheses) |
 <!---LeetCode Topics End-->
