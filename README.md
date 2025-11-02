@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/rohit02rsk/Leet-Codes/tree/master/1720-crawler-log-folder) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/2132-convert-1d-array-into-2d-array) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohit02rsk/Leet-Codes/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## String
 |  |
@@ -98,5 +99,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/rohit02rsk/Leet-Codes/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/rohit02rsk/Leet-Codes/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+## Linked List
+|  |
+| ------- |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/rohit02rsk/Leet-Codes/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 <!---LeetCode Topics End-->
